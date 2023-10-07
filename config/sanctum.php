@@ -33,7 +33,22 @@ return [
     |
     */
 
-    'guard' => ['web'],
+    // 'guard' => ['web'],
+    'guards' => [
+        'web' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        'teacher' => [
+            'driver' => 'sanctum',
+            'provider' => 'teachers',
+        ],
+        'student' => [
+            'driver' => 'sanctum',
+            'provider' => 'students',
+        ],
+    ],
+    
 
     /*
     |--------------------------------------------------------------------------
