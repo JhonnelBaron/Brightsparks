@@ -230,10 +230,7 @@
         </div>
     </div>
     <x-footer />
-    @endsection
-
-
-
+    
     <script>
         var maxSubjects = 4; // Maximum number of subjects allowed
         var subjectFields = document.getElementById('subject-fields');
@@ -261,26 +258,10 @@
             }
         });
     </script>
+    @endsection
 
 
-    {{-- <script>
-    // Add Subject button click event
-    document.getElementById('add-subject').addEventListener('click', function () {
-        var subjectFields = document.getElementById('subject-fields');
-        var inputGroup = document.createElement('div');
-        inputGroup.className = 'input-group mt-2';
-        inputGroup.innerHTML = `
-            <input type="text" class="form-control" name="subjects[]" placeholder="Enter a subject" required>
-            <div class="input-group-append">
-                <button type="button" class="btn btn-danger remove-subject">Remove</button>
-            </div>
-        `;
-        subjectFields.appendChild(inputGroup);
-        
-        // Remove Subject button click event
-        inputGroup.querySelector('.remove-subject').addEventListener('click', function () {
-            subjectFields.removeChild(inputGroup);
-        });
-    });
-</script> --}}
-    {{-- @endsection --}}
+
+
+
+  

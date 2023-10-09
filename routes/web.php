@@ -20,18 +20,21 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/admindashboard', function () {
-    return view('admin/adminDashboard');
-});
+// Route::get('/admindashboard', function () {
+//     return view('admin/adminDashboard');
+// });
+
+
 
 // routes/web.php
 Route::get('/create-admin', [AdminUserController::class, 'createDefaultAdmin']);
 // routes/web.php
-Route::middleware(['admin'])->group(function () {
+Route::middleware(['web'])->group(function () {
     // Define your admin routes here
     Route::get('/admin/dashboard', function () {
-        return view('admin.dashboard');
+        return view('admin.adminDashboard');
     });
+    Route::post('/admin/logout/', [AdminUserController::class, 'logout']);
 });
 
 
@@ -42,6 +45,12 @@ Route::middleware(['auth:student', \App\Http\Middleware\DisableBrowserCache::cla
     Route::post('/student/logout', [StudentController::class, 'logout']);
 
 });
+
+// Admin Login Routes
+Route::get('/admin/login', [AdminUserController::class, 'showLoginForm']);
+Route::post('/admin/signin', [AdminUserController::class, 'login'])->name('admin.signin');
+
+
 // Student Login Routes
 Route::get('/student/login', [StudentController::class, 'showLoginForm']);
 Route::post('/learners/signin', [StudentController::class, 'login']);

@@ -29,16 +29,16 @@
          </li>
           <li>
              <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                <i class="fa-solid fa-id-badge text-gray-500 group-hover:text-gray-900 text-lg w-5 h-5"></i>
-                <span class="flex-1 ml-3 whitespace-nowrap">ID Request</span>
+               <i class="fa-solid fa-book-open-reader text-gray-500 group-hover:text-gray-900 text-lg w-5 h-5"></i>
+                <span class="flex-1 ml-3 whitespace-nowrap">LMS Login</span>
                 
              </a>
           </li>
 
           <li>
             <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                <i class="fa-solid fa-shirt text-gray-500 group-hover:text-gray-900 text-lg w-5 h-4"></i>
-               <span class="flex-1 ml-3 whitespace-nowrap">Uniform Request</span>
+               <i class="fa-solid fa-chalkboard text-gray-500 group-hover:text-gray-900 text-lg w-5 h-5"></i>
+               <span class="flex-1 ml-3 whitespace-nowrap">Grades</span>
                
             </a>
          </li>
@@ -49,6 +49,13 @@
                 <span class="flex-1 ml-3 whitespace-nowrap">Subjects</span>
              </a>
           </li>
+          <li>
+            <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+               <i class="fa-solid fa-money-bill text-gray-500 group-hover:text-gray-900 text-lg w-5 h-5"></i>
+               <span class="flex-1 ml-3 whitespace-nowrap">Payment Channels</span>
+            </a>
+         </li>
+         <li>
           <li>
              <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <i class="fa-solid fa-user text-gray-500 group-hover:text-gray-900 text-lg w-5 h-5"></i>
@@ -63,7 +70,8 @@
 
              <form method="POST" action="/student/logout">
                 @csrf
-                <button type="submit">Logout</button>
+                <button type="submit" "><i class="fa-solid fa-right-from-bracket text-gray-500 group-hover:text-gray-900 text-lg w-5 h-5 ml-2"></i>
+                  <span class="flex-1 ml-2 whitespace-nowrap">Logout</span></button>
             </form>
             
           </li>

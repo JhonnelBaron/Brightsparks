@@ -22,8 +22,9 @@
             <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded  md:hover:text-yellow-300  dark:text-white  dark:hover:bg-gray-700 {{ Request::is('/aboutus') ? ' border-b-2 border-yellow-300' : '' }}">About Us</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded  md:hover:text-yellow-300  dark:text-white  dark:hover:text-white {{ Request::is('/enrollnow') ? ' border-b-2 border-yellow-300' : '' }}">Enroll Now!</a>
-          </li>
+            <a href="#"
+                class="block py-2 pl-3 pr-4 text-gray-100 rounded  md:hover:text-yellow-300   {{ Request::is('/contactu') ? ' border-b-2 border-yellow-300' : '' }}">Contact Us</a>
+        </li>
           @if (!in_array(request()->path(), ['/teacher/login', '/student/login']))
           <li>
             <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="font-semibold flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-100 hover:text-yellow-300 md:w-auto ">Login <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">

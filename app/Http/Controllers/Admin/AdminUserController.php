@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AdminUserController extends Controller
 {
@@ -23,7 +24,15 @@ class AdminUserController extends Controller
         // Show the admin login form
         public function showLoginForm()
         {
-            return view('admin.login');
+            if (auth()->guard('web')->check()){
+                return redirect('admin/studentDashboard');
+            }elseif (auth()->guard('teacher')->check()){
+                return redirect('teacher/teacherDashboard');
+            }elseif (auth()->guard('student')->check()){
+                return redirect('student/studentDashboard');
+            }
+    
+            return view('auth.adminLogin');
         }
     
         // Handle the admin login attempt
@@ -31,9 +40,14 @@ class AdminUserController extends Controller
         {
             $credentials = $request->only('email', 'password');
     
-            if (auth('admin')->attempt($credentials)) {
+            if (auth('web')->attempt($credentials)) {
                 // Authentication successful for admin
-                return redirect()->intended('/admin/dashboard'); // Redirect to the admin dashboard
+                // return redirect()->intended('/admin/adminDashboard'); // Redirect to the admin dashboard
+                // $user = Auth::guard('web')->user();
+                // session()->flash('user', $user);
+                return redirect('/admin/dashboard'); 
+
+
             }
     
             // Authentication failed
@@ -43,7 +57,7 @@ class AdminUserController extends Controller
         // Log out the admin user
         public function logout()
         {
-            auth('admin')->logout();
+            auth('web')->logout();
             return redirect('/admin/login'); // Redirect to the admin login page
         }
 }
