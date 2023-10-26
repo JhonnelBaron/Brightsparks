@@ -92,13 +92,13 @@
         </div>
     </nav>
 
-<div class="mt-8 pt-4">
+<div class="mt-10 pt-8">
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative h-82 overflow-hidden md:h-96">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/286460806_5479879122033030_5614018350097062078_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeFNwj6r69C7bqfQjnxYi-zi3-RzziSMyBDf5HPOJIzIENv5NcysdCi60XvAEIVRYugEinE-eCJWASbwaLfq6CGM&_nc_ohc=zhLtHw6ClcAAX_g31ud&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&oh=00_AfA5MKKrCJyKYzsusFCyCNf8pOhjZhrWtRuL3mpXStfJSw&oe=6526928F"
+                <img src="{{ asset('images/b5.jpg') }}"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 2 -->
@@ -185,7 +185,7 @@
             <article class="flex flex-col shadow my-4">
                 <!-- Article Image -->
                 <a href="#" class="hover:opacity-75">
-                    <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/370413921_719838036823835_400586698225941978_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHDPrRk3Lf3udnG2NU1fYRt_7_3PH92GCT_v_c8f3YYJPtPV2x52vJgwyxQLkWWJoiUXBYjerxu4voYHIBFAtGc&_nc_ohc=xzyo4075RCwAX_lpnTn&_nc_zt=23&_nc_ht=scontent.fmnl8-1.fna&oh=00_AfC0tJOnKEFStuDJAJeB0SlZiYfPXwBbRUedeN0czE9H7A&oe=65260A26">
+                    <img src="{{ asset('images/b1.jpg') }}">
                 </a>
                 <div class="bg-white flex flex-col justify-start p-6">
                     <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Hiring</a>
@@ -206,7 +206,7 @@
             <article class="flex flex-col shadow my-4">
                 <!-- Article Image -->
                 <a href="#" class="hover:opacity-75">
-                    <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/367675112_711157414358564_7964408478554930475_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeG10NlgugtCGnk5SuTawzHHByZmCiTcR1sHJmYKJNxHW_I69WCRT7dhH0QR4VmeEyWEM126ZZtPsk9IVQrZnDAW&_nc_ohc=WucYgC1bxhwAX_NHf_9&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfCqAH4Ebf4zAalFCRObrIC_Kzi1HWIjG4veZyfYhjid7A&oe=6526D61F">
+                    <img src="{{ asset('images/b2.jpg') }}">
                 </a>
                 <div class="bg-white flex flex-col justify-start p-6">
                     <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Announcement</a>
@@ -233,7 +233,7 @@
             <article class="flex flex-col shadow my-4">
                 <!-- Article Image -->
                 <a href="#" class="hover:opacity-75">
-                    <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/366374762_707722261368746_2078633909162928408_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHssfPI3ky6ss5sPapPdcqH_EgX7YbtFrz8SBfthu0WvGo-m2eqNkbDJl2V202yZ6UnrgICFseb5bSQXQs8iUF3&_nc_ohc=kl-kPrRVTB4AX9fIfHY&_nc_zt=23&_nc_ht=scontent.fmnl8-1.fna&oh=00_AfBDP-Ro31yRej9aV26b7gr0rfh3UrGi_JFl2nlV_BFALA&oe=65269E83">
+                    <img src="{{ asset('images/b4.jpg') }}">
                 </a>
                 <div class="bg-white flex flex-col justify-start p-6">
                     <a href="#" class="text-blue-700 text-sm font-bold uppercase pb-4">Announcement</a>
@@ -284,15 +284,15 @@
             <div class="w-full bg-white shadow flex flex-col my-4 p-6">
                 <p class="text-xl font-semibold pb-5">Media Gallery</p>
                 <div class="grid grid-cols-3 gap-3">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/351493338_268022212566620_4744053399186652987_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeEO-cuXDl_OY4HEmDmbUfmIbZ7yzZ8Vl4ltnvLNnxWXiXLyo3QVQ8AF0IAkaWZaCHSGhr4NMoKQijo7dpXO6oad&_nc_ohc=ShSuVzEl-JkAX8Bgy-d&_nc_zt=23&_nc_ht=scontent.fmnl8-1.fna&oh=00_AfBQUSfup5zVB8cBZDIPtlf_rDybnAdqYzKNVQ16Z6__bQ&oe=6526CBB8">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/351462316_804891181153983_3290338608646200213_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeEmO1eavSUhlZ6gmAZqB3hoKn5EvCdzs74qfkS8J3OzvrDfwkuxilDxP_mS1k4BGZNJHW2PQIfsR0hSPINk2yQK&_nc_ohc=UEa2yIv1w6IAX_YKGbq&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfCUuBYF74jX9jf2Ni1f4CPXoEqZo3vZCgTROhuqF26Z_A&oe=6526F0D2">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/352035863_209910531917277_8024075949646891078_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeGjwJIj0jszwGKJnkPBGHHu5UIfgX_0GEHlQh-Bf_QYQXueNjjyKqqZlWa3W2cV7vUBTTaPlJSOqMMYgcOxoKw0&_nc_ohc=qmRLGFAjYwMAX-C7uPZ&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&oh=00_AfCMycAIjsb142keFk1FkIWUNHq1NJ8EpJxBy7FYrJJW5w&oe=652537FE">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/352375548_1275567196385801_8965258033474101462_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHK8PCcBDX8QRj7AAL0VEdEG4P6JokgcB4bg_omiSBwHi-IWXILfZw-kJFnVxaw5UFSUS9_7RtqdTa2cKsdHDU8&_nc_ohc=8SByIBPZ94wAX_bF29a&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfBaX97h8Wy2yrGTSatK5IR2W2GLivnwW5B0PnqsgQIi_w&oe=6526C4CC">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/351510527_806338964173611_3790335518210276304_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHu4M5Y_aQZdyrwSQ11p2VAgKaHXt_h34uApode3-Hfi9CxQbFA0OxaDQ-prI09lUBDl2emTi5BmF3g5PfJL0hq&_nc_ohc=mrFYLXpHxtgAX9ewDCv&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&oh=00_AfANHh4gPjHVCZCoWT-0b7M5srWk3gewE-T2I-lx1xxluA&oe=6525F7A9">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/352363466_983397982689500_426803149469300659_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeFfObs9W3DxNn7TtWEr2qCW0RSJW0KNhOfRFIlbQo2E5_nKfRRfpWfVG5oXqKEGKWtfWlEDcPvmxiUqf6DNtkeC&_nc_ohc=SoHxcJBBAV8AX_4eECJ&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfDNhUjsg_05NejslZCDwY076_wWBsKUCS2BZZu1U04RoA&oe=652564E1">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/351491439_2530748563751198_2907915908088907246_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHDdV3CdzSpoMUjKJhMBouavq9sR1XhqWO-r2xHVeGpY2gyN86n1DuzdekhMPFvlSqYGp2xm-Unz1usDzF1i3Fe&_nc_ohc=6Ij-6hOFOf8AX9bzGaw&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&oh=00_AfCtqQIXt4fY5Usuld1ZttIu4wPbb-NnHnRaQ7gVDyzHmA&oe=6525E836">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/352323528_1196716244350502_6394182408387446788_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeEJ8y_WG93qT7Fs7cLaQj0xWHU3Ed0NzeBYdTcR3Q3N4NZrp5ArilzqFmw6ero_bajfOD2VVnifxVjqHFrymFQJ&_nc_ohc=e_SkyAKVf7wAX_7aOW3&_nc_zt=23&_nc_ht=scontent.fmnl8-1.fna&oh=00_AfAyDPpEIvcgVBmyrFtXZ8UlsXVGfd3zHQutvfr8ztIUXg&oe=652536B8">
-                    <img class="hover:opacity-75" src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/352374948_1515410165654549_8912041838191668616_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeFFl2jryvIQal-yw-WCUl3mm7nsMfco8HObuewx9yjwc704qYd-nBkyJ57nIS9q6KR6JtnhPNRn8fOfBPbLaYxH&_nc_ohc=Mf9DcPdRDVkAX9dbMcV&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfC2wJglsBrnNqOygokArU3CVlXj8EIfzEZIHe-haBZtIg&oe=65269BE9">
+                    <img class="hover:opacity-75" src="{{ asset('images/b1.jpg') }}">
+                    <img class="hover:opacity-75" src="{{ asset('images/b2.jpg') }}">
+                    <img class="hover:opacity-75" src="{{ asset('images/b3.jpg') }}">
+                    <img class="hover:opacity-75" src="{{ asset('images/b4.jpg') }}">
+                    <img class="hover:opacity-75" src="{{ asset('images/b1.jpg') }}">
+                    <img class="hover:opacity-75" src="{{ asset('images/b2.jpg') }}">
+                    <img class="hover:opacity-75" src="{{ asset('images/b3.jpg') }}">
+                    <img class="hover:opacity-75" src="{{ asset('images/b1.jpg') }}">
+                    <img class="hover:opacity-75" src="{{ asset('images/b3.jpg') }}">
                 </div>
                 <a href="https://facebook.com/BrightSparksPH/?_rdc=1&_rdr" target="_blank"
                     class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6">
