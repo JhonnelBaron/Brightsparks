@@ -136,8 +136,18 @@
                             <div class="w-1/2">
                                 <label for="advisory_section"
                                     class="block text-gray-500">{{ __('Advisory Section') }}</label>
-                                <input id="advisory_section" type="text" class="bg-gray-200 p-2 rounded-md w-full"
-                                    name="advisory_section" value="{{ old('advisory_section') }}" required>
+                                {{-- <input id="advisory_section" type="text" class="bg-gray-200 p-2 rounded-md w-full"
+                                    name="advisory_section" value="{{ old('advisory_section') }}" required> --}}
+
+                                    <select id="advisory_section" class="bg-gray-200 p-2 rounded-md w-full" name="advisory_section"
+                                    required>
+                                    <option value="" ></option>
+                                    <option value="1" {{ old('advisory_section') == '1' ? 'selected' : '' }}>Section 1
+                                    </option>
+                                    <option value="2" {{ old('advisory_section') == '2' ? 'selected' : '' }}>
+                                        Section 2</option>
+
+                                </select>
                             </div>
 
 
@@ -167,6 +177,7 @@
                                     <label for="program" class="block text-gray-500">{{ __('Program') }}</label>
                                     <select id="program" class="bg-gray-200 p-2 rounded-md w-full" name="program"
                                         required>
+                                        <option value="" ></option>
                                         <option value="kinder" {{ old('program') == 'kinder' ? 'selected' : '' }}>Kinder
                                         </option>
                                         <option value="elementary" {{ old('program') == 'elementary' ? 'selected' : '' }}>

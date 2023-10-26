@@ -98,7 +98,7 @@
         <div class="relative h-82 overflow-hidden md:h-96">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/286460806_5479879122033030_5614018350097062078_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeFNwj6r69C7bqfQjnxYi-zi3-RzziSMyBDf5HPOJIzIENv5NcysdCi60XvAEIVRYugEinE-eCJWASbwaLfq6CGM&_nc_ohc=zhLtHw6ClcAAX_g31ud&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&oh=00_AfA5MKKrCJyKYzsusFCyCNf8pOhjZhrWtRuL3mpXStfJSw&oe=6526928F">
+                <img src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/286460806_5479879122033030_5614018350097062078_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeFNwj6r69C7bqfQjnxYi-zi3-RzziSMyBDf5HPOJIzIENv5NcysdCi60XvAEIVRYugEinE-eCJWASbwaLfq6CGM&_nc_ohc=zhLtHw6ClcAAX_g31ud&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&oh=00_AfA5MKKrCJyKYzsusFCyCNf8pOhjZhrWtRuL3mpXStfJSw&oe=6526928F"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 2 -->

@@ -116,9 +116,20 @@
 
                     <!-- Section -->
                     <div class="w-1/2">
-                        <label for="section" class="block text-gray-500">Section</label>
-                        <input id="section" type="text" class="bg-gray-200 p-2 rounded-md w-full" name="section"
-                            value="{{ old('section') }}" required>
+                        <label for="section"
+                            class="block text-gray-500">{{ __('Section') }}</label>
+                        {{-- <input id="advisory_section" type="text" class="bg-gray-200 p-2 rounded-md w-full"
+                            name="advisory_section" value="{{ old('advisory_section') }}" required> --}}
+
+                            <select id="section" class="bg-gray-200 p-2 rounded-md w-full" name="section"
+                            required>
+                            <option value="" ></option>
+                            <option value="1" {{ old('section') == '1' ? 'selected' : '' }}>Section 1
+                            </option>
+                            <option value="2" {{ old('section') == '2' ? 'selected' : '' }}>
+                                Section 2</option>
+
+                        </select>
                     </div>
 
                 </div>
