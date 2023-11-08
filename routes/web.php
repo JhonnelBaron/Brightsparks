@@ -24,7 +24,9 @@ Route::get('/', function () {
 //     return view('admin/adminDashboard');
 // });
 
+Route::get('/aboutus', function () { return view('aboutUs');})->name('aboutus');
 
+Route::get('/contactus', function () { return view('contactUs');})->name('contactus');
 
 // routes/web.php
 Route::get('/create-admin', [AdminUserController::class, 'createDefaultAdmin']);
