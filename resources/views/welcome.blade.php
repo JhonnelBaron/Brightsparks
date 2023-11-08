@@ -54,7 +54,7 @@
                             Us</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="{{ route('contactus') }}"
                             class="block py-2 pl-3 pr-4 text-gray-100 rounded  md:hover:text-yellow-300   {{ Request::is('/contactu') ? ' border-b-2 border-yellow-300' : '' }}">Contact Us</a>
                     </li>
                     @if (!in_array(request()->path(), ['teacher.login.view', 'student.login.view']))
